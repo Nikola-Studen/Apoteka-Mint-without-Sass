@@ -1,0 +1,472 @@
+
+/*font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+
+html{
+    font-size: 14px;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #B1B1B1;
+    font-weight: normal;
+}
+
+a, a:hover, a:focus{
+    color: #B1B1B1;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 2.7rem;
+    font-weight: 100;
+    color: #222222;
+}
+
+.h2-v2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+}
+
+h5{
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+    color: #222222;
+}
+
+.h5-v2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.text-warning-2{
+    color: #F7CC4B;
+}
+
+.btn-outline-warning-2{
+    color: #F7CC4B;
+    border: 2px solid #F7CC4B;
+    padding: 12px 38px;
+    line-height: 1.2rem;
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+
+.btn-outline-warning-2:hover{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    color: #fff;
+    background-color: #ffc107;
+    border: 2px solid #ffc107;
+}
+
+
+
+/*HEADER*/
+
+
+
+header{
+    transition: 0.5s linear;
+}
+header.bg-dark{
+   background-color: rgba(0,0,0,0.7) !important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #222222;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(34, 34, 34, 0.1);
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-nav .nav-item:hover .nav-link{
+    color: #fff;
+    background-color: #F7CC4B;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #F7CC4B;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 204, 75, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#main-menu{
+    margin: 0 -15px;
+}
+
+
+/*HOME START*/
+
+
+.home{
+    padding: 80px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home h2{
+    font-size: 1.5rem;
+}
+
+.home:after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/skew-full-bottom-ccw.png');
+    background-size: 100% 100%;
+}
+
+
+
+/*VIDEO*/
+
+
+.video{
+    position: relative;
+}
+
+.video:before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url('../img/skew-full-top-ccw.png');
+    background-size: 100% 100%;
+}
+
+.video:after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/skew-full-bottom-ccw.png');
+    background-size: 100% 100%;
+}
+
+
+
+/*TEAM*/
+
+
+.team figure{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team .hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F7CC4B;
+    display: none;
+}
+
+.team .hover .fa{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 1.5rem;
+    margin: 0 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.team .team-item:hover .hover{
+    display: block;
+}
+
+.team .team-item .fa:hover{
+    color: #F7CC4B;
+    background-color: #fff;
+}
+
+.team-item h4 a{
+    color: #222222;
+    font-weight: 300;
+}
+
+.team-item:hover h4 a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal; 
+}
+
+
+
+/*PARALLAX*/
+
+
+.parallax{
+    position: relative;
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax:before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url('../img/skew-full-top-cw.png');
+    background-size: 100% 100%;
+}
+
+.parallax:after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/skew-full-bottom-cw.png');
+    background-size: 100% 100%;
+}
+
+
+
+/*PORTFOLIO*/
+
+
+.porfolio{
+    position: relative;
+}
+
+.porfolio .h5-v2{
+    color: #444444;
+}
+
+.porfolio-item figure{
+    position: relative;
+}
+
+.porfolio .porfolio-item a{
+    font-size: 1.4rem;
+    color: #222222;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.4s ease;
+}
+
+.porfolio-item figure div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.porfolio-item figure:hover div{
+    display: block;
+}
+
+.porfolio-item div a:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.porfolio:before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url('../img/skew-full-top-ccw.png');
+    background-size: 100% 100%;
+}
+
+.porfolio:after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('../img/skew-full-bottom-ccw.png');
+    background-size: 100% 100%;
+}
+
+
+
+/*ACHIEVEMENTS*/
+
+
+.achievements-item h6{
+    color: #666666;
+}
+
+.achievements-item .fa{
+    width: 100px;
+    height: 100px;
+    line-height: 110px;
+    font-size: 5rem;
+    color: #222222;
+}
+
+.achievements-item p:last-of-type{
+    font-size: 4rem;
+    font-family: 'PT Sans', sans-serif; 
+    line-height: 4rem;
+}
+
+
+.achievements .blockquote p{
+    color: #222222;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.1rem;
+} 
+
+.achievements .blockquote .blockquote-footer{
+    color: #BBBBBB;
+}
+
+
+
+/*SUBSCRIBE*/
+
+
+.subscribe .h5-v2{
+    font-weight: normal;
+}
+
+.subscribe .form-control{
+    padding: 15px 20px;
+    border: 2px solid #fff;
+    line-height: 1.2rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+}
+
+.subscribe .btn-dark{
+    padding: 15px 55px;
+    line-height: 1.2rem;
+    background-color: #222222;
+    border: 2px solid #222222;
+    transition: 0.3s ease;
+}
+
+.subscribe .btn-dark:hover{
+    background-color: #141414;
+}
+
+.subscribe ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+}
+.subscribe ::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+.subscribe :-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+.subscribe :-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+
+.subscribe .form-control:focus{
+    box-shadow: 0 0 2px #fff;
+}
+
+.subscribe{
+    position: relative;
+}
+
+.subscribe:before{
+    content: '';
+    position: absolute;
+    height: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url('../img/skew-full-top-cw.png');
+    background-size: 100% 100%;
+}
+
+
+
+/*FOOTER*/
+
+
+footer .social .fa{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 5px;
+    transition: 0.5s ease;
+}
+
+footer p{
+    color: #BBBBBB;
+}
+
+footer .social .fa-facebook:hover{
+    color: #fff;
+    background-color: #3b5998;
+    border: 2px solid #3b5998;
+    box-shadow: 0 0 3px #3b5998;
+}
+footer .social .fa-twitter:hover{
+    color: #fff;
+    background-color: #00aced;
+    border: 2px solid #00aced;
+    box-shadow: 0 0 3px #00aced;
+}
+footer .social .fa-google-plus:hover{
+    color: #fff;
+    background-color: #DD4B39;
+    border: 2px solid #DD4B39;
+    box-shadow: 0 0 3px #DD4B39;
+}
+footer .social .fa-dribbble:hover{
+    color: #fff;
+    background-color: #ea4c89;
+    border: 2px solid #ea4c89;
+    box-shadow: 0 0 3px #ea4c89;
+}
+footer .social .fa-instagram:hover{
+    color: #fff;
+    background-color: #8a3ab9;
+    border: 2px solid #8a3ab9;
+    box-shadow: 0 0 3px #8a3ab9;
+}

@@ -1,0 +1,237 @@
+
+@media(min-width:576px){
+
+    
+    /*VIDEO*/
+    .video{
+        padding: 70px 0!important;
+    }
+
+
+    /*ACHIEVEMENTS*/
+    .achievements-item p:last-of-type{
+        font-size: 5.25rem;
+        font-family: 'PT Sans', sans-serif; 
+        line-height: 5.25rem;
+    }
+    .achievements .blockquote p{
+        font-size: 1.3rem;
+    } 
+
+}
+
+
+@media(min-width:768px){
+
+    
+    h2{
+        font-size: 3.2rem;
+    }
+
+   
+    /*HEADER*/
+    .navbar-light .navbar-nav .nav-link{
+        color: #B1B1B1;
+        background-color: transparent;
+        border-bottom: none;
+        transition: 0.3s ease;
+         border-bottom: 2px solid transparent;
+    }
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-nav .nav-item:hover .nav-link{
+        background-color: transparent;
+        border-bottom: 2px solid #F7CC4B;
+    }
+
+   
+    /*HOME*/
+    .home h2{
+        font-size: 3rem;
+    }
+
+
+    /*VIDEO*/
+    .video{
+        padding: 100px 0!important;
+    }
+    .video .embed-responsive{
+        width: 85%;
+    }
+
+
+    /*PARALLAX*/
+    .parallax article{
+        padding-left: 80px!important;
+        padding-right: 80px!important;
+    }
+
+    
+    /*FOOTER*/
+    footer .social .fa{
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin: 0 5px;
+    }
+
+}
+
+
+
+@media(min-width:992px){
+    
+    
+    html{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 3.75rem;
+    }
+    
+    .home:after,
+    .video:after,
+    .video:before,
+    .parallax:before,
+    .parallax:after,
+    .porfolio:before,
+    .porfolio:after,
+    .subscribe:before{
+        height: 120px;
+    }
+
+
+    /*HEADER*/
+   
+
+
+    /*HOME*/
+    .home{
+        padding: 250px 0px;
+    }
+    .home h2{
+        font-size: 4rem;
+    }
+
+
+    /*VIDEO*/
+    .video{
+        padding: 150px 0!important;
+    }
+    .video .embed-responsive{
+        width: 75%;
+    }
+
+
+    /*TEAM*/
+    .team .container > h5{
+        margin-bottom: 80px!important;
+    }
+    .team{
+        padding: 115px 0!important;
+    }
+
+    .team figure{
+        width: 200px;
+        height: 200px;
+    }
+
+    /*PARALLAX*/
+    .parallax{
+        padding: 200px 0; 
+    }
+    .parallax article{
+        padding-left: 180px!important;
+        padding-right: 180px!important;
+    }
+
+
+    /*PORTFOLIO*/
+    .porfolio .container h5{
+        margin-bottom: 60px!important;
+    }
+    .porfolio{
+        padding: 150px 0!important;
+    }
+
+
+    /*ACHIEVEMENTS*/
+    .achievements h6{
+        margin-bottom: 80px!important;
+    }
+    .achievements .quote{
+        padding-left: 60px!important;
+        padding-right: 60px!important;
+    }
+    .achievements .blockquote p{
+        font-size: 1.7rem;
+    } 
+    .achievements .quote{
+        margin-top: 80px!important;
+    }
+    .achievements{
+        padding: 100px 0!important;
+    }
+
+
+    /*SUBSCRIBE*/
+    .subscribe{
+        padding-top: 150px!important;
+        padding-bottom: 80px!important;
+    }
+
+}
+
+
+@media(min-width:1200px){
+
+    
+    .home h2{
+        font-size: 5rem;
+    }
+
+    .about-us,
+    .principles{
+        padding-top: 150px!important;
+        padding-bottom: 150px!important;
+    }
+
+    .video{
+        padding-top: 165px!important;
+        padding-bottom: 165px!important;
+    }
+
+    .parallax article{
+        padding-left: 250px!important;
+        padding-right: 250px!important;
+    }
+
+    .parallax{
+        padding: 250px 0; 
+    }
+
+    .principles article{
+        padding-left: 30px;
+    }
+
+    .porfolio{
+        padding: 175px 0!important;
+    }
+
+    .subscribe{
+        padding-top: 165px!important;
+        padding-bottom: 100px!important;
+    }
+    
+    .team figure{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+
+
+
